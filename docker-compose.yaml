@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  example:
+    build:
+      context: .
+    command: sleep 999
